@@ -1,0 +1,382 @@
+{
+  "brand": "NOWA",
+  "wave": "wave1",
+  "language": "ru",
+  "register": "вы",
+  "generated_at": "2026-08-07",
+  "source_files": {
+    "copy_doc": "C:\\Users\\user\\Downloads\\NOWA_тексты_объявления.docx",
+    "creatives_dir": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives"
+  },
+  "notes": [
+    "Соответствие текст <-> картинка проверено визуально на 2 из 14 креативов (01_son-1_A, 14_head-1_B) — текст на макете совпадает с 'Вариант A/B' из документа.",
+    "Все 14 изображений имеют одинаковый размер 941x1672px (~9:16, вертикальный формат под Stories/Reels).",
+    "В исходном документе задан только utm_content (по одному значению на вариант A/B). utm_source/utm_medium/utm_campaign не указаны — их нужно добавить перед запуском в Meta (Ads Manager сам добавит {{campaign.name}} и т.п. при желании).",
+    "primary_text_resolved собран автоматически: 3 абзаца из документа + CTA-строка, где [ссылка] заменена на destination_url варианта. Проверьте вручную перед выгрузкой.",
+    "meta_cta_button_type — предполагаемое сопоставление текстовой кнопки 'Подробнее' с константой Meta Marketing API (call_to_action.type = LEARN_MORE). Подтвердите перед запуском.",
+    "Это только сопоставление текст+картинка (шаг 1). Структура campaign/ad set/ad для Meta и выгрузка на GitLab — следующие шаги, ещё не сделаны.",
+    "image_github_raw_url — прямая публичная ссылка на raw.githubusercontent.com; используется для загрузки картинки в библиотеку изображений Meta Ads (ads_creative_upload_image принимает только публичный прямой URL)."
+  ],
+  "doors": [
+    {
+      "door_id": "son-1",
+      "door_name": "Сон-1",
+      "landing_url": "https://now-a.life/lp/son-1",
+      "headline": "Как засыпать быстрее",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.",
+        "Дело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.",
+        "Короткая вечерняя практика возвращает телу сигнал «день закончен», и засыпать становится легче."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "01_son-1_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\01_son-1_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Устали за день, а уснуть не можете",
+          "utm_content": "son-1_A",
+          "destination_url": "https://now-a.life/lp/son-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-1_A",
+          "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nКороткая вечерняя практика возвращает телу сигнал «день закончен», и засыпать становится легче.\n\nПосмотреть, как это работает → https://now-a.life/lp/son-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-1_A",
+          "suggested_ad_name": "NOWA_wave1_son-1_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/01_son-1_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/01_son-1_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/01_son-1_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "02_son-1_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\02_son-1_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Два часа ночи, вы вымотаны, а сон не идёт",
+          "utm_content": "son-1_B",
+          "destination_url": "https://now-a.life/lp/son-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-1_B",
+          "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nКороткая вечерняя практика возвращает телу сигнал «день закончен», и засыпать становится легче.\n\nПосмотреть, как это работает → https://now-a.life/lp/son-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-1_B",
+          "suggested_ad_name": "NOWA_wave1_son-1_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/02_son-1_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/02_son-1_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/02_son-1_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "son-2",
+      "door_name": "Сон-2",
+      "landing_url": "https://now-a.life/lp/son-2",
+      "headline": "Как высыпаться за те же часы",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.",
+        "Дело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.",
+        "Короткая вечерняя разгрузка тела и дыхания возвращает глубокий сон, и утро перестаёт начинаться с усталости."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "03_son-2_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\03_son-2_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Спите восемь часов и всё равно встаёте разбитой",
+          "utm_content": "son-2_A",
+          "destination_url": "https://now-a.life/lp/son-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-2_A",
+          "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nКороткая вечерняя разгрузка тела и дыхания возвращает глубокий сон, и утро перестаёт начинаться с усталости.\n\nПосмотреть, как это работает → https://now-a.life/lp/son-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-2_A",
+          "suggested_ad_name": "NOWA_wave1_son-2_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/03_son-2_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/03_son-2_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/03_son-2_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "04_son-2_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\04_son-2_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Восемь часов сна, а утром как будто не ложились",
+          "utm_content": "son-2_B",
+          "destination_url": "https://now-a.life/lp/son-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-2_B",
+          "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nКороткая вечерняя разгрузка тела и дыхания возвращает глубокий сон, и утро перестаёт начинаться с усталости.\n\nПосмотреть, как это работает → https://now-a.life/lp/son-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=son-2_B",
+          "suggested_ad_name": "NOWA_wave1_son-2_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/04_son-2_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/04_son-2_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/04_son-2_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "telo-1",
+      "door_name": "Тело-1",
+      "landing_url": "https://now-a.life/lp/telo-1",
+      "headline": "Как разгрузить шею и плечи",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.",
+        "За этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.",
+        "Десять минут телесной практики вечером снимают зажим, плечи опускаются, голова светлеет."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "05_telo-1_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\05_telo-1_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Весь день за компом, шея и плечи каменные",
+          "utm_content": "telo-1_A",
+          "destination_url": "https://now-a.life/lp/telo-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-1_A",
+          "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nДесять минут телесной практики вечером снимают зажим, плечи опускаются, голова светлеет.\n\nПосмотреть, как это работает → https://now-a.life/lp/telo-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-1_A",
+          "suggested_ad_name": "NOWA_wave1_telo-1_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/05_telo-1_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/05_telo-1_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/05_telo-1_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "06_telo-1_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\06_telo-1_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "К вечеру плечи как бетон, а завтра снова за стол",
+          "utm_content": "telo-1_B",
+          "destination_url": "https://now-a.life/lp/telo-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-1_B",
+          "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nДесять минут телесной практики вечером снимают зажим, плечи опускаются, голова светлеет.\n\nПосмотреть, как это работает → https://now-a.life/lp/telo-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-1_B",
+          "suggested_ad_name": "NOWA_wave1_telo-1_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/06_telo-1_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/06_telo-1_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/06_telo-1_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "telo-4",
+      "door_name": "Тело-4",
+      "landing_url": "https://now-a.life/lp/telo-4",
+      "headline": "Как распрямить спину",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.",
+        "Держит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.",
+        "Короткие телесные практики снимают зажим, и спина распрямляется сама, без тренажёров."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "07_telo-4_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\07_telo-4_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Ловите себя сгорбленной, плечи ушли вперёд",
+          "utm_content": "telo-4_A",
+          "destination_url": "https://now-a.life/lp/telo-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-4_A",
+          "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nКороткие телесные практики снимают зажим, и спина распрямляется сама, без тренажёров.\n\nПосмотреть, как это работает → https://now-a.life/lp/telo-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-4_A",
+          "suggested_ad_name": "NOWA_wave1_telo-4_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/07_telo-4_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/07_telo-4_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/07_telo-4_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "08_telo-4_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\08_telo-4_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Проходите мимо витрины и не узнаёте свою осанку",
+          "utm_content": "telo-4_B",
+          "destination_url": "https://now-a.life/lp/telo-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-4_B",
+          "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nКороткие телесные практики снимают зажим, и спина распрямляется сама, без тренажёров.\n\nПосмотреть, как это работает → https://now-a.life/lp/telo-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=telo-4_B",
+          "suggested_ad_name": "NOWA_wave1_telo-4_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/08_telo-4_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/08_telo-4_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/08_telo-4_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "calm-4",
+      "door_name": "Спокойствие-4",
+      "landing_url": "https://now-a.life/lp/calm-4",
+      "headline": "Как перестать накручиваться",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.",
+        "Это не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.",
+        "Практики на дыхание и тело возвращают вас в равновесие за несколько минут, и лента перестаёт выбивать из колеи."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "09_calm-4_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\09_calm-4_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Открываете ленту, и вас потряхивает",
+          "utm_content": "calm-4_A",
+          "destination_url": "https://now-a.life/lp/calm-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-4_A",
+          "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nПрактики на дыхание и тело возвращают вас в равновесие за несколько минут, и лента перестаёт выбивать из колеи.\n\nПосмотреть, как это работает → https://now-a.life/lp/calm-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-4_A",
+          "suggested_ad_name": "NOWA_wave1_calm-4_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/09_calm-4_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/09_calm-4_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/09_calm-4_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "10_calm-4_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\10_calm-4_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "После новостей внутри трясёт и не отпускает",
+          "utm_content": "calm-4_B",
+          "destination_url": "https://now-a.life/lp/calm-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-4_B",
+          "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nПрактики на дыхание и тело возвращают вас в равновесие за несколько минут, и лента перестаёт выбивать из колеи.\n\nПосмотреть, как это работает → https://now-a.life/lp/calm-4?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-4_B",
+          "suggested_ad_name": "NOWA_wave1_calm-4_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/10_calm-4_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/10_calm-4_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/10_calm-4_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "calm-2",
+      "door_name": "Спокойствие-2",
+      "landing_url": "https://now-a.life/lp/calm-2",
+      "headline": "Как перестать срываться",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.",
+        "Вспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.",
+        "Практики возвращают контроль над реакцией, и то, что заводило, перестаёт выбивать из себя."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "11_calm-2_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\11_calm-2_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Срываетесь на близких из-за ерунды",
+          "utm_content": "calm-2_A",
+          "destination_url": "https://now-a.life/lp/calm-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-2_A",
+          "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nПрактики возвращают контроль над реакцией, и то, что заводило, перестаёт выбивать из себя.\n\nПосмотреть, как это работает → https://now-a.life/lp/calm-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-2_A",
+          "suggested_ad_name": "NOWA_wave1_calm-2_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/11_calm-2_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/11_calm-2_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/11_calm-2_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "12_calm-2_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\12_calm-2_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Накричали из-за мелочи и весь вечер виноватите себя",
+          "utm_content": "calm-2_B",
+          "destination_url": "https://now-a.life/lp/calm-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-2_B",
+          "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nПрактики возвращают контроль над реакцией, и то, что заводило, перестаёт выбивать из себя.\n\nПосмотреть, как это работает → https://now-a.life/lp/calm-2?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=calm-2_B",
+          "suggested_ad_name": "NOWA_wave1_calm-2_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/12_calm-2_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/12_calm-2_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/12_calm-2_B.png"
+        }
+      ]
+    },
+    {
+      "door_id": "head-1",
+      "door_name": "Голова-1",
+      "landing_url": "https://now-a.life/lp/head-1",
+      "headline": "Как вернуть ясность",
+      "cta_button": "Подробнее",
+      "meta_cta_button_type": "LEARN_MORE",
+      "primary_text_paragraphs": [
+        "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.",
+        "В хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.",
+        "Короткие практики снимают это напряжение, и мысли снова собираются, решения даются легче."
+      ],
+      "primary_text_cta_line_template": "Посмотреть, как это работает → [ссылка]",
+      "variants": [
+        {
+          "variant": "A",
+          "image_file": "13_head-1_A.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\13_head-1_A.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "В голове туман, решения даются через силу",
+          "utm_content": "head-1_A",
+          "destination_url": "https://now-a.life/lp/head-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=head-1_A",
+          "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nКороткие практики снимают это напряжение, и мысли снова собираются, решения даются легче.\n\nПосмотреть, как это работает → https://now-a.life/lp/head-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=head-1_A",
+          "suggested_ad_name": "NOWA_wave1_head-1_A",
+          "image_repo_path": "NOWA_wave1_ads/creatives/13_head-1_A.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/13_head-1_A.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/13_head-1_A.png"
+        },
+        {
+          "variant": "B",
+          "image_file": "14_head-1_B.png",
+          "image_source_path": "C:\\Users\\user\\Downloads\\NOWA_wave1_creatives\\14_head-1_B.png",
+          "image_dimensions": {
+            "width": 941,
+            "height": 1672
+          },
+          "image_headline_text": "Читаете абзац третий раз и не можете собрать мысли",
+          "utm_content": "head-1_B",
+          "destination_url": "https://now-a.life/lp/head-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=head-1_B",
+          "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nКороткие практики снимают это напряжение, и мысли снова собираются, решения даются легче.\n\nПосмотреть, как это работает → https://now-a.life/lp/head-1?utm_source={{site_source_name}}&utm_medium=initiate_checkout&utm_content=head-1_B",
+          "suggested_ad_name": "NOWA_wave1_head-1_B",
+          "image_repo_path": "NOWA_wave1_ads/creatives/14_head-1_B.png",
+          "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/14_head-1_B.png",
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/14_head-1_B.png"
+        }
+      ]
+    }
+  ],
+  "utm_source": "{{site_source_name}}",
+  "utm_medium": "initiate_checkout",
+  "utm_scheme_note": "utm_source — динамический параметр Meta (site_source_name возвращает fb/ig/an/msg — платформу показа). utm_medium фиксирован и обозначает цель оптимизации кампании (InitiateCheckout). utm_content — id двери+вариант, из исходного документа.",
+  "github": {
+    "owner": "Art-em-sh",
+    "repo": "ads_meta_nowa",
+    "branch": "main",
+    "repo_url": "https://github.com/Art-em-sh/ads_meta_nowa",
+    "creatives_path_in_repo": "NOWA_wave1_ads/creatives/"
+  }
+}
