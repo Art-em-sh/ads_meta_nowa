@@ -16,7 +16,8 @@
     "utm_source = '{{site_source_name}}' с префиксом meta_ (как договорились для wave1): meta_{{site_source_name}}.",
     "utm_medium ПОКА placeholder, не подтверждён пользователем: 'trial_1r' для офера за 1₽, 'lead_free' для бесплатного — отражает разную экономику двух офферов (платный микро-чек vs лид без оплаты). Уточнить/подтвердить перед запуском в Meta, как и optimization event на ad set (вероятно Purchase для 1₽ и Lead/CompleteRegistration для free — они не должны бежать в одном ad set с одной целью оптимизации).",
     "meta_cta_button_type предположительно SEE_DETAILS ('Подробнее') — подтверждено эмпирически в wave1 на реальном аккаунте.",
-    "Это только сопоставление текст+картинка (шаг 1, по нашим правилам). GitHub и Meta — следующие шаги."
+    "Это только сопоставление текст+картинка (шаг 1, по нашим правилам). GitHub и Meta — следующие шаги.",
+    "utm_medium обновлён на start_trial для обоих офферов — цель оптимизации ad set unified (StartTrial), подтверждено Meta API (принято без ошибок в отличие от InitiateCheckout в wave1)."
   ],
   "offers": {
     "1r": {
@@ -25,7 +26,7 @@
       "landing_url": "https://now-a.life/program",
       "headline": "Получить программу за 1 ₽",
       "closing_line": "Первый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу",
-      "utm_medium": "trial_1r",
+      "utm_medium": "start_trial",
       "honesty_note": "Возврат 7 дней, условия продления в оферте."
     },
     "free": {
@@ -34,7 +35,7 @@
       "landing_url": "https://now-a.life/program-free",
       "headline": "Собрать программу бесплатно",
       "closing_line": "Карта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно",
-      "utm_medium": "lead_free",
+      "utm_medium": "start_trial",
       "honesty_note": "Карта не нужна, автосписания нет."
     }
   },
@@ -66,24 +67,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "son-1_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=son-1_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-1_A_1r",
               "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойный сон: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-1_A_1r"
+              "suggested_ad_name": "NOWA_program_son-1_A_1r",
+              "meta_creative_id": "910586358212003",
+              "meta_ad_id": "120254525710350628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "son-1_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=son-1_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-1_A_free",
               "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойный сон: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-1_A_free"
+              "suggested_ad_name": "NOWA_program_son-1_A_free",
+              "meta_creative_id": "825962650507459",
+              "meta_ad_id": "120254525713010628"
             }
           ]
         },
@@ -105,24 +110,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "son-1_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=son-1_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-1_B_1r",
               "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойный сон: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-1_B_1r"
+              "suggested_ad_name": "NOWA_program_son-1_B_1r",
+              "meta_creative_id": "1248845193962493",
+              "meta_ad_id": "120254525715460628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "son-1_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=son-1_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-1_B_free",
               "primary_text_resolved": "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.\n\nДело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойный сон: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-1_B_free"
+              "suggested_ad_name": "NOWA_program_son-1_B_free",
+              "meta_creative_id": "1594651665714995",
+              "meta_ad_id": "120254525718060628"
             }
           ]
         }
@@ -155,24 +164,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "son-2_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=son-2_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-2_A_1r",
               "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, для сна и восстановления: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-2_A_1r"
+              "suggested_ad_name": "NOWA_program_son-2_A_1r",
+              "meta_creative_id": "953734131070123",
+              "meta_ad_id": "120254525743980628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "son-2_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=son-2_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-2_A_free",
               "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, для сна и восстановления: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-2_A_free"
+              "suggested_ad_name": "NOWA_program_son-2_A_free",
+              "meta_creative_id": "1569160528042470",
+              "meta_ad_id": "120254525722200628"
             }
           ]
         },
@@ -194,24 +207,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "son-2_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=son-2_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-2_B_1r",
               "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, для сна и восстановления: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-2_B_1r"
+              "suggested_ad_name": "NOWA_program_son-2_B_1r",
+              "meta_creative_id": "1075053114988488",
+              "meta_ad_id": "120254525746710628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "son-2_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=son-2_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=son-2_B_free",
               "primary_text_resolved": "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.\n\nДело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, для сна и восстановления: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_son-2_B_free"
+              "suggested_ad_name": "NOWA_program_son-2_B_free",
+              "meta_creative_id": "840417359039608",
+              "meta_ad_id": "120254525727000628"
             }
           ]
         }
@@ -244,24 +261,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "telo-1_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=telo-1_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-1_A_1r",
               "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы разгрузить шею и плечи: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-1_A_1r"
+              "suggested_ad_name": "NOWA_program_telo-1_A_1r",
+              "meta_creative_id": "1795599054764300",
+              "meta_ad_id": "120254525728220628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "telo-1_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=telo-1_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-1_A_free",
               "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы разгрузить шею и плечи: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-1_A_free"
+              "suggested_ad_name": "NOWA_program_telo-1_A_free",
+              "meta_creative_id": "27816241168025371",
+              "meta_ad_id": "120254525730720628"
             }
           ]
         },
@@ -283,24 +304,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "telo-1_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=telo-1_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-1_B_1r",
               "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы разгрузить шею и плечи: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-1_B_1r"
+              "suggested_ad_name": "NOWA_program_telo-1_B_1r",
+              "meta_creative_id": "844736808606708",
+              "meta_ad_id": "120254525731940628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "telo-1_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=telo-1_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-1_B_free",
               "primary_text_resolved": "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.\n\nЗа этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы разгрузить шею и плечи: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-1_B_free"
+              "suggested_ad_name": "NOWA_program_telo-1_B_free",
+              "meta_creative_id": "1531587198254566",
+              "meta_ad_id": "120254525733170628"
             }
           ]
         }
@@ -333,24 +358,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "telo-4_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=telo-4_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-4_A_1r",
               "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть осанку: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-4_A_1r"
+              "suggested_ad_name": "NOWA_program_telo-4_A_1r",
+              "meta_creative_id": "3008590879491836",
+              "meta_ad_id": "120254525734430628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "telo-4_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=telo-4_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-4_A_free",
               "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть осанку: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-4_A_free"
+              "suggested_ad_name": "NOWA_program_telo-4_A_free",
+              "meta_creative_id": "1029081886560392",
+              "meta_ad_id": "120254525736390628"
             }
           ]
         },
@@ -372,24 +401,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "telo-4_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=telo-4_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-4_B_1r",
               "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть осанку: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-4_B_1r"
+              "suggested_ad_name": "NOWA_program_telo-4_B_1r",
+              "meta_creative_id": "1030571646374972",
+              "meta_ad_id": "120254525754980628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "telo-4_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=telo-4_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=telo-4_B_free",
               "primary_text_resolved": "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.\n\nДержит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть осанку: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_telo-4_B_free"
+              "suggested_ad_name": "NOWA_program_telo-4_B_free",
+              "meta_creative_id": "1382737826708967",
+              "meta_ad_id": "120254525756180628"
             }
           ]
         }
@@ -422,24 +455,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "calm-4_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=calm-4_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-4_A_1r",
               "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойствие: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-4_A_1r"
+              "suggested_ad_name": "NOWA_program_calm-4_A_1r",
+              "meta_creative_id": "1001087342926136",
+              "meta_ad_id": "120254525757370628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "calm-4_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=calm-4_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-4_A_free",
               "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойствие: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-4_A_free"
+              "suggested_ad_name": "NOWA_program_calm-4_A_free",
+              "meta_creative_id": "4586716571646989",
+              "meta_ad_id": "120254525818870628"
             }
           ]
         },
@@ -461,24 +498,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "calm-4_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=calm-4_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-4_B_1r",
               "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойствие: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-4_B_1r"
+              "suggested_ad_name": "NOWA_program_calm-4_B_1r",
+              "meta_creative_id": "2590696531393359",
+              "meta_ad_id": "120254525761600628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "calm-4_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=calm-4_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-4_B_free",
               "primary_text_resolved": "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.\n\nЭто не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть спокойствие: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-4_B_free"
+              "suggested_ad_name": "NOWA_program_calm-4_B_free",
+              "meta_creative_id": "1626124422424010",
+              "meta_ad_id": "120254525764650628"
             }
           ]
         }
@@ -511,24 +552,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "calm-2_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=calm-2_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-2_A_1r",
               "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы держать реакции под контролем: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-2_A_1r"
+              "suggested_ad_name": "NOWA_program_calm-2_A_1r",
+              "meta_creative_id": "1555031172277672",
+              "meta_ad_id": "120254525767680628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "calm-2_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=calm-2_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-2_A_free",
               "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы держать реакции под контролем: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-2_A_free"
+              "suggested_ad_name": "NOWA_program_calm-2_A_free",
+              "meta_creative_id": "1708425887066513",
+              "meta_ad_id": "120254525772210628"
             }
           ]
         },
@@ -550,24 +595,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "calm-2_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=calm-2_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-2_B_1r",
               "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы держать реакции под контролем: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-2_B_1r"
+              "suggested_ad_name": "NOWA_program_calm-2_B_1r",
+              "meta_creative_id": "899558753225015",
+              "meta_ad_id": "120254525779780628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "calm-2_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=calm-2_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=calm-2_B_free",
               "primary_text_resolved": "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.\n\nВспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы держать реакции под контролем: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_calm-2_B_free"
+              "suggested_ad_name": "NOWA_program_calm-2_B_free",
+              "meta_creative_id": "1703824647581603",
+              "meta_ad_id": "120254525788210628"
             }
           ]
         }
@@ -600,24 +649,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "head-1_A_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=head-1_A_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=head-1_A_1r",
               "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть ясность и фокус: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_head-1_A_1r"
+              "suggested_ad_name": "NOWA_program_head-1_A_1r",
+              "meta_creative_id": "1219749961227813",
+              "meta_ad_id": "120254525821980628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "head-1_A_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=head-1_A_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=head-1_A_free",
               "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть ясность и фокус: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_head-1_A_free"
+              "suggested_ad_name": "NOWA_program_head-1_A_free",
+              "meta_creative_id": "1705379400747191",
+              "meta_ad_id": "120254525794710628"
             }
           ]
         },
@@ -639,24 +692,28 @@
               "offer_name": "За 1 ₽",
               "utm_content": "head-1_B_1r",
               "destination_url": "https://now-a.life/program",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=trial_1r&utm_content=head-1_B_1r",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=head-1_B_1r",
               "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть ясность и фокус: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nПервый месяц за 1 ₽, возврат в течение 7 дней. Соберите программу.",
               "headline": "Получить программу за 1 ₽",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_head-1_B_1r"
+              "suggested_ad_name": "NOWA_program_head-1_B_1r",
+              "meta_creative_id": "1836326584006453",
+              "meta_ad_id": "120254525798320628"
             },
             {
               "offer_id": "free",
               "offer_name": "Бесплатно на месяц",
               "utm_content": "head-1_B_free",
               "destination_url": "https://now-a.life/program-free",
-              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=lead_free&utm_content=head-1_B_free",
+              "url_tags": "utm_source=meta_{{site_source_name}}&utm_medium=start_trial&utm_content=head-1_B_free",
               "primary_text_resolved": "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.\n\nВ хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.\n\nОтветьте на 5 вопросов, и мы соберём под вас маршрут на 30 дней, чтобы вернуть ясность и фокус: короткие практики йоги, дыхания и медитаций по 5–30 минут в день.\n\nКарта не нужна, всё в Telegram, меньше минуты. Соберите программу бесплатно.",
               "headline": "Собрать программу бесплатно",
               "cta_button": "Подробнее",
               "meta_cta_button_type": "SEE_DETAILS",
-              "suggested_ad_name": "NOWA_program_head-1_B_free"
+              "suggested_ad_name": "NOWA_program_head-1_B_free",
+              "meta_creative_id": "2002378237119493",
+              "meta_ad_id": "120254525803180628"
             }
           ]
         }
@@ -669,5 +726,89 @@
     "branch": "main",
     "repo_url": "https://github.com/Art-em-sh/ads_meta_nowa",
     "creatives_path_in_repo": "NOWA_program_ads/creatives/"
+  },
+  "meta_launch": {
+    "ad_account_id": "207779728749375",
+    "ad_account_name": "ads for pesonal",
+    "currency": "USD",
+    "page_id": "1265724379948871",
+    "page_name": "Yoyogyoga",
+    "pixel_dataset_id": "335229912837704",
+    "pixel_dataset_name": "Data set work",
+    "campaign_id": "120254525447270628",
+    "campaign_name": "NOWA — Program v1 — 7 дверей x 2 оффера (Trial)",
+    "campaign_status": "PAUSED",
+    "campaign_budget_type": "CBO (campaign daily budget)",
+    "campaign_daily_budget_usd": 40,
+    "ad_set_id": "120254525461340628",
+    "ad_set_name": "Program v1 — 7 дверей x A/B x 2 оффера (RU expat GEO, без UA)",
+    "ad_set_status": "PAUSED",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "optimization_event": "START_TRIAL",
+    "optimization_event_note": "Принято Meta API с первого раза без ошибок (в отличие от InitiateCheckout в wave1) — событие StartTrial настроено на пикселе. Единый ad set и единая цель оптимизации для обоих офферов (1₽ и бесплатно), по решению пользователя.",
+    "targeting": "идентичен wave1 (см. project_nowa_meta_ads_account в памяти): возраст 20-65, europe + GE/AZ/KZ/AM/UZ/KG/TJ/TR, регионы Дубай+Бали (без Пхукета), Украина исключена",
+    "utm_mechanism": "UTM (включая {{site_source_name}} с префиксом meta_) встроены в link_url креатива при создании через официальный claude.ai Meta Ads MCP connector — НЕ через локальный dev-mode токен (тот не может создавать новые креативы, см. feedback_meta_ads_url_tags в памяти). utm_medium=start_trial для обоих офферов, utm_content различает <door>_<variant>_<1r|free>.",
+    "ads_manager_campaign_url": "https://www.facebook.com/adsmanager/manage/campaigns/edit?act=207779728749375&selected_campaign_ids=120254525447270628",
+    "creatives": {
+      "son-1_A_1r": "910586358212003",
+      "son-1_A_free": "825962650507459",
+      "son-1_B_1r": "1248845193962493",
+      "son-1_B_free": "1594651665714995",
+      "son-2_A_1r": "953734131070123",
+      "son-2_A_free": "1569160528042470",
+      "son-2_B_1r": "1075053114988488",
+      "son-2_B_free": "840417359039608",
+      "telo-1_A_1r": "1795599054764300",
+      "telo-1_A_free": "27816241168025371",
+      "telo-1_B_1r": "844736808606708",
+      "telo-1_B_free": "1531587198254566",
+      "telo-4_A_1r": "3008590879491836",
+      "telo-4_A_free": "1029081886560392",
+      "telo-4_B_1r": "1030571646374972",
+      "telo-4_B_free": "1382737826708967",
+      "calm-4_A_1r": "1001087342926136",
+      "calm-4_A_free": "4586716571646989",
+      "calm-4_B_1r": "2590696531393359",
+      "calm-4_B_free": "1626124422424010",
+      "calm-2_A_1r": "1555031172277672",
+      "calm-2_A_free": "1708425887066513",
+      "calm-2_B_1r": "899558753225015",
+      "calm-2_B_free": "1703824647581603",
+      "head-1_A_1r": "1219749961227813",
+      "head-1_A_free": "1705379400747191",
+      "head-1_B_1r": "1836326584006453",
+      "head-1_B_free": "2002378237119493"
+    },
+    "ads": {
+      "son-1_A_1r": "120254525710350628",
+      "son-1_A_free": "120254525713010628",
+      "son-1_B_1r": "120254525715460628",
+      "son-1_B_free": "120254525718060628",
+      "son-2_A_1r": "120254525743980628",
+      "son-2_A_free": "120254525722200628",
+      "son-2_B_1r": "120254525746710628",
+      "son-2_B_free": "120254525727000628",
+      "telo-1_A_1r": "120254525728220628",
+      "telo-1_A_free": "120254525730720628",
+      "telo-1_B_1r": "120254525731940628",
+      "telo-1_B_free": "120254525733170628",
+      "telo-4_A_1r": "120254525734430628",
+      "telo-4_A_free": "120254525736390628",
+      "telo-4_B_1r": "120254525754980628",
+      "telo-4_B_free": "120254525756180628",
+      "calm-4_A_1r": "120254525757370628",
+      "calm-4_A_free": "120254525818870628",
+      "calm-4_B_1r": "120254525761600628",
+      "calm-4_B_free": "120254525764650628",
+      "calm-2_A_1r": "120254525767680628",
+      "calm-2_A_free": "120254525772210628",
+      "calm-2_B_1r": "120254525779780628",
+      "calm-2_B_free": "120254525788210628",
+      "head-1_A_1r": "120254525821980628",
+      "head-1_A_free": "120254525794710628",
+      "head-1_B_1r": "120254525798320628",
+      "head-1_B_free": "120254525803180628"
+    },
+    "status_summary": "28 креативов и 28 объявлений созданы, ВСЁ НА ПАУЗЕ (кампания, ad set, все объявления). Бюджет не тратится. Требуется ручная активация."
   }
 }
