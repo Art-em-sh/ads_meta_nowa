@@ -1,0 +1,11 @@
+# Raw and exported analytics data — contains customer PII (emails, payments, etc.)
+exports/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+
+# Node / OS
+node_modules/
+.DS_Store
+Thumbs.db
