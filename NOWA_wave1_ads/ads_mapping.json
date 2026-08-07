@@ -24,7 +24,7 @@
       "landing_url": "https://now-a.life/lp/son-1",
       "headline": "Как засыпать быстрее",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Тело просит спать, а голова не выключается: разговоры, задачи, что забыли, что скажете завтра.",
         "Дело не в том, что вы не умеете спать. К ночи нервная система так и не вышла из режима дня, и тело остаётся в тонусе.",
@@ -47,7 +47,9 @@
           "suggested_ad_name": "NOWA_wave1_son-1_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/01_son-1_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/01_son-1_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/01_son-1_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/01_son-1_A.png",
+          "meta_creative_id": "1637974287833426",
+          "meta_ad_id": "120254516769500628"
         },
         {
           "variant": "B",
@@ -64,7 +66,9 @@
           "suggested_ad_name": "NOWA_wave1_son-1_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/02_son-1_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/02_son-1_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/02_son-1_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/02_son-1_B.png",
+          "meta_creative_id": "27641967785432096",
+          "meta_ad_id": "120254516771850628"
         }
       ]
     },
@@ -74,7 +78,7 @@
       "landing_url": "https://now-a.life/lp/son-2",
       "headline": "Как высыпаться за те же часы",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Часы в кровати есть, а восстановления нет: встать тяжелее, чем вечером было лечь.",
         "Дело не в количестве сна. Если день закончился на оборотах, тело уходит в сон в напряжении, и ночь проходит вхолостую.",
@@ -97,7 +101,9 @@
           "suggested_ad_name": "NOWA_wave1_son-2_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/03_son-2_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/03_son-2_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/03_son-2_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/03_son-2_A.png",
+          "meta_creative_id": "1763638711747576",
+          "meta_ad_id": "120254516773290628"
         },
         {
           "variant": "B",
@@ -114,7 +120,9 @@
           "suggested_ad_name": "NOWA_wave1_son-2_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/04_son-2_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/04_son-2_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/04_son-2_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/04_son-2_B.png",
+          "meta_creative_id": "1703612024201197",
+          "meta_ad_id": "120254516774680628"
         }
       ]
     },
@@ -124,7 +132,7 @@
       "landing_url": "https://now-a.life/lp/telo-1",
       "headline": "Как разгрузить шею и плечи",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Весь день за монитором, и к вечеру шея и плечи будто окаменели, а голова тяжёлая.",
         "За этим стоит нервная система в режиме стресса: она весь день держала тело в тонусе и к вечеру не отпустила.",
@@ -147,7 +155,9 @@
           "suggested_ad_name": "NOWA_wave1_telo-1_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/05_telo-1_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/05_telo-1_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/05_telo-1_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/05_telo-1_A.png",
+          "meta_creative_id": "1077375871639894",
+          "meta_ad_id": "120254516777330628"
         },
         {
           "variant": "B",
@@ -164,7 +174,9 @@
           "suggested_ad_name": "NOWA_wave1_telo-1_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/06_telo-1_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/06_telo-1_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/06_telo-1_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/06_telo-1_B.png",
+          "meta_creative_id": "1741537957039505",
+          "meta_ad_id": "120254516778750628"
         }
       ]
     },
@@ -174,7 +186,7 @@
       "landing_url": "https://now-a.life/lp/telo-4",
       "headline": "Как распрямить спину",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Плечи ушли вперёд, спина округлилась, и вы всё чаще замечаете это на фото и в отражении.",
         "Держит вас в этой позе зажим, который тело накопило за годы за столом, а не слабость мышц.",
@@ -197,7 +209,9 @@
           "suggested_ad_name": "NOWA_wave1_telo-4_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/07_telo-4_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/07_telo-4_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/07_telo-4_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/07_telo-4_A.png",
+          "meta_creative_id": "1711520500111488",
+          "meta_ad_id": "120254516802350628"
         },
         {
           "variant": "B",
@@ -214,7 +228,9 @@
           "suggested_ad_name": "NOWA_wave1_telo-4_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/08_telo-4_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/08_telo-4_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/08_telo-4_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/08_telo-4_B.png",
+          "meta_creative_id": "929841336134679",
+          "meta_ad_id": "120254516782540628"
         }
       ]
     },
@@ -224,7 +240,7 @@
       "landing_url": "https://now-a.life/lp/calm-4",
       "headline": "Как перестать накручиваться",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Пара минут в ленте, и внутри всё сжимается, а фон тревоги остаётся с вами на весь день.",
         "Это не слабость. Нервная система ловит поток как угрозу и застревает в напряжении.",
@@ -247,7 +263,9 @@
           "suggested_ad_name": "NOWA_wave1_calm-4_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/09_calm-4_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/09_calm-4_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/09_calm-4_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/09_calm-4_A.png",
+          "meta_creative_id": "1536280134361604",
+          "meta_ad_id": "120254516787260628"
         },
         {
           "variant": "B",
@@ -264,7 +282,9 @@
           "suggested_ad_name": "NOWA_wave1_calm-4_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/10_calm-4_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/10_calm-4_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/10_calm-4_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/10_calm-4_B.png",
+          "meta_creative_id": "997139950025745",
+          "meta_ad_id": "120254516790060628"
         }
       ]
     },
@@ -274,7 +294,7 @@
       "landing_url": "https://now-a.life/lp/calm-2",
       "headline": "Как перестать срываться",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Мелочь, а вы уже сорвались на детей или партнёра, и следом накрывает вина, что снова не сдержались.",
         "Вспышки идут от нервной системы на пределе: когда ресурс на нуле, реакция срабатывает раньше, чем вы успеваете подумать.",
@@ -297,7 +317,9 @@
           "suggested_ad_name": "NOWA_wave1_calm-2_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/11_calm-2_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/11_calm-2_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/11_calm-2_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/11_calm-2_A.png",
+          "meta_creative_id": "1040796928746089",
+          "meta_ad_id": "120254516792450628"
         },
         {
           "variant": "B",
@@ -314,7 +336,9 @@
           "suggested_ad_name": "NOWA_wave1_calm-2_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/12_calm-2_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/12_calm-2_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/12_calm-2_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/12_calm-2_B.png",
+          "meta_creative_id": "2236005457197161",
+          "meta_ad_id": "120254516794070628"
         }
       ]
     },
@@ -324,7 +348,7 @@
       "landing_url": "https://now-a.life/lp/head-1",
       "headline": "Как вернуть ясность",
       "cta_button": "Подробнее",
-      "meta_cta_button_type": "LEARN_MORE",
+      "meta_cta_button_type": "SEE_DETAILS",
       "primary_text_paragraphs": [
         "Голова как в тумане, простые решения даются через силу, а к концу дня мозг будто выключается.",
         "В хроническом стрессе нервная система тратит ресурс на то, чтобы держать вас в тонусе, и на ясность его уже не остаётся.",
@@ -347,7 +371,9 @@
           "suggested_ad_name": "NOWA_wave1_head-1_A",
           "image_repo_path": "NOWA_wave1_ads/creatives/13_head-1_A.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/13_head-1_A.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/13_head-1_A.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/13_head-1_A.png",
+          "meta_creative_id": "1062786562856055",
+          "meta_ad_id": "120254516796510628"
         },
         {
           "variant": "B",
@@ -364,7 +390,9 @@
           "suggested_ad_name": "NOWA_wave1_head-1_B",
           "image_repo_path": "NOWA_wave1_ads/creatives/14_head-1_B.png",
           "image_github_raw_url": "https://raw.githubusercontent.com/Art-em-sh/ads_meta_nowa/main/NOWA_wave1_ads/creatives/14_head-1_B.png",
-          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/14_head-1_B.png"
+          "image_github_url": "https://github.com/Art-em-sh/ads_meta_nowa/blob/main/NOWA_wave1_ads/creatives/14_head-1_B.png",
+          "meta_creative_id": "1566427515074509",
+          "meta_ad_id": "120254516797920628"
         }
       ]
     }
@@ -378,5 +406,113 @@
     "branch": "main",
     "repo_url": "https://github.com/Art-em-sh/ads_meta_nowa",
     "creatives_path_in_repo": "NOWA_wave1_ads/creatives/"
+  },
+  "meta_launch": {
+    "ad_account_id": "207779728749375",
+    "ad_account_name": "ads for pesonal",
+    "currency": "USD",
+    "page_id": "1265724379948871",
+    "page_name": "Yoyogyoga",
+    "page_note": "Существующие боевые кампании NOWA ('Nowa нас продажу 890р') используют Facebook-страницу Yoyogyoga, а не отдельную страницу 'Nowa' (1127847627085046) — для консистентности с работающей воронкой новые объявления тоже используют Yoyogyoga. Уточните у команды, актуально ли это, при желании можно пересоздать креативы на другой странице.",
+    "pixel_dataset_id": "335229912837704",
+    "pixel_dataset_name": "Data set work",
+    "campaign_id": "120254516297970628",
+    "campaign_name": "NOWA — Wave1 — 7 дверей (InitiateCheckout)",
+    "campaign_status": "PAUSED",
+    "campaign_budget_type": "CBO (campaign daily budget)",
+    "campaign_daily_budget_usd": 50,
+    "ad_set_id": "120254516700190628",
+    "ad_set_name": "Wave1 — 7 дверей x A/B (RU expat GEO, без UA)",
+    "ad_set_status": "PAUSED",
+    "optimization_goal": "OFFSITE_CONVERSIONS",
+    "optimization_event_requested": "INITIATE_CHECKOUT",
+    "optimization_event_actual": "PURCHASE",
+    "optimization_event_note": "InitiateCheckout запрошен пользователем, но Meta Marketing API стабильно возвращал internal error при promoted_object.custom_event_type=INITIATE_CHECKOUT на этом пикселе (проверено: тот же вызов с PURCHASE прошёл штатно). Вероятная причина — InitiateCheckout не входит в приоритетные 8 событий Aggregated Event Measurement для домена now-a.life в Meta Events Manager. Временно оптимизация идёт на Purchase (по решению пользователя). После настройки AEM в Events Manager нужно пересоздать ad set с custom_event_type=INITIATE_CHECKOUT.",
+    "targeting": {
+      "age_min": 20,
+      "age_max": 65,
+      "country_groups": [
+        "europe"
+      ],
+      "countries": [
+        "GE",
+        "AZ",
+        "KZ",
+        "AM",
+        "UZ",
+        "KG",
+        "TJ",
+        "TR"
+      ],
+      "regions": [
+        "Dubai (AE)",
+        "Bali (ID)"
+      ],
+      "regions_excluded_note": "Пхукет (Таиланд) исключён: Meta блокирует city-level таргетинг в Таиланде для аудитории, включающей 20-летних ('Selected targeting options unavailable for young people'). Страна TH в списке countries тоже не участвует — таргетинг на Таиланд в этой волне не включён.",
+      "excluded_countries": [
+        "UA"
+      ],
+      "source_note": "Скопировано (объединение) из таргетинга двух живых кампаний 'Nowa нас продажу 890р' и 'Nowa нас продажу 890р — Копия' в этом же аккаунте, Украина уже была исключена там же."
+    },
+    "ads_manager_campaign_url": "https://www.facebook.com/adsmanager/manage/campaigns/edit?act=207779728749375&selected_campaign_ids=120254516297970628",
+    "ads": {
+      "son-1_A": {
+        "creative_id": "1637974287833426",
+        "ad_id": "120254516769500628"
+      },
+      "son-1_B": {
+        "creative_id": "27641967785432096",
+        "ad_id": "120254516771850628"
+      },
+      "son-2_A": {
+        "creative_id": "1763638711747576",
+        "ad_id": "120254516773290628"
+      },
+      "son-2_B": {
+        "creative_id": "1703612024201197",
+        "ad_id": "120254516774680628"
+      },
+      "telo-1_A": {
+        "creative_id": "1077375871639894",
+        "ad_id": "120254516777330628"
+      },
+      "telo-1_B": {
+        "creative_id": "1741537957039505",
+        "ad_id": "120254516778750628"
+      },
+      "telo-4_A": {
+        "creative_id": "1711520500111488",
+        "ad_id": "120254516802350628"
+      },
+      "telo-4_B": {
+        "creative_id": "929841336134679",
+        "ad_id": "120254516782540628"
+      },
+      "calm-4_A": {
+        "creative_id": "1536280134361604",
+        "ad_id": "120254516787260628"
+      },
+      "calm-4_B": {
+        "creative_id": "997139950025745",
+        "ad_id": "120254516790060628"
+      },
+      "calm-2_A": {
+        "creative_id": "1040796928746089",
+        "ad_id": "120254516792450628"
+      },
+      "calm-2_B": {
+        "creative_id": "2236005457197161",
+        "ad_id": "120254516794070628"
+      },
+      "head-1_A": {
+        "creative_id": "1062786562856055",
+        "ad_id": "120254516796510628"
+      },
+      "head-1_B": {
+        "creative_id": "1566427515074509",
+        "ad_id": "120254516797920628"
+      }
+    },
+    "status_summary": "Кампания, ad set, 14 креативов и 14 объявлений созданы и ВСЁ НА ПАУЗЕ. Ничего не тратит бюджет. Проверьте в Ads Manager и активируйте вручную (или попросите активировать) когда будете готовы."
   }
 }
